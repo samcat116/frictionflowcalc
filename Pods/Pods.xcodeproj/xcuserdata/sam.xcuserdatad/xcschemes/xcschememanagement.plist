@@ -4,16 +4,22 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Flow Calculator.xcscheme</key>
+		<key>HandyUIKit.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>0</integer>
 		</dict>
-		<key>Flow Calculator.xcscheme_^#shared#^_</key>
+		<key>Pods-Flow Calculator.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>1</integer>
 		</dict>
 	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict/>
 </dict>
 </plist>

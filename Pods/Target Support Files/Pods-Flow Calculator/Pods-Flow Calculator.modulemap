@@ -1,0 +1,6 @@
+framework module Pods_Flow_Calculator {
+  umbrella header "Pods-Flow Calculator-umbrella.h"
+
+  export *
+  module * { export * }
+}
