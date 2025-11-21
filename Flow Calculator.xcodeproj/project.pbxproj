@@ -7,21 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		22A592EA1FB1592D00BA10B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A592E91FB1592D00BA10B2 /* AppDelegate.swift */; };
-		22A592EC1FB1592D00BA10B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A592EB1FB1592D00BA10B2 /* ViewController.swift */; };
-		22A592EF1FB1592D00BA10B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22A592ED1FB1592D00BA10B2 /* Main.storyboard */; };
 		22A592F11FB1592D00BA10B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22A592F01FB1592D00BA10B2 /* Assets.xcassets */; };
-		22A592F41FB1592D00BA10B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22A592F21FB1592D00BA10B2 /* LaunchScreen.storyboard */; };
+		22B593001FB1593000BA10B2 /* FlowCalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B592FF1FB1593000BA10B2 /* FlowCalculatorApp.swift */; };
+		22B593021FB1593100BA10B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B593011FB1593100BA10B2 /* ContentView.swift */; };
+		22B593041FB1593200BA10B2 /* FrictionCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B593031FB1593200BA10B2 /* FrictionCalculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		22A592E61FB1592D00BA10B2 /* Flow Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flow Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		22A592E91FB1592D00BA10B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		22A592EB1FB1592D00BA10B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		22A592EE1FB1592D00BA10B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		22A592F01FB1592D00BA10B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		22A592F31FB1592D00BA10B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22A592F51FB1592D00BA10B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22B592FF1FB1593000BA10B2 /* FlowCalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowCalculatorApp.swift; sourceTree = "<group>"; };
+		22B593011FB1593100BA10B2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		22B593031FB1593200BA10B2 /* FrictionCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrictionCalculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,11 +52,10 @@
 		22A592E81FB1592D00BA10B2 /* Flow Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				22A592E91FB1592D00BA10B2 /* AppDelegate.swift */,
-				22A592EB1FB1592D00BA10B2 /* ViewController.swift */,
-				22A592ED1FB1592D00BA10B2 /* Main.storyboard */,
+				22B592FF1FB1593000BA10B2 /* FlowCalculatorApp.swift */,
+				22B593011FB1593100BA10B2 /* ContentView.swift */,
+				22B593031FB1593200BA10B2 /* FrictionCalculator.swift */,
 				22A592F01FB1592D00BA10B2 /* Assets.xcassets */,
-				22A592F21FB1592D00BA10B2 /* LaunchScreen.storyboard */,
 				22A592F51FB1592D00BA10B2 /* Info.plist */,
 			);
 			path = "Flow Calculator";
@@ -91,12 +88,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0910;
-				LastUpgradeCheck = 0910;
+				LastUpgradeCheck = 1500;
 				ORGANIZATIONNAME = "Samuel Schmitt";
 				TargetAttributes = {
 					22A592E51FB1592D00BA10B2 = {
 						CreatedOnToolsVersion = 9.1;
-						LastSwiftMigration = 1020;
+						LastSwiftMigration = 1500;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -124,9 +121,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22A592F41FB1592D00BA10B2 /* LaunchScreen.storyboard in Resources */,
 				22A592F11FB1592D00BA10B2 /* Assets.xcassets in Resources */,
-				22A592EF1FB1592D00BA10B2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,31 +132,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22A592EC1FB1592D00BA10B2 /* ViewController.swift in Sources */,
-				22A592EA1FB1592D00BA10B2 /* AppDelegate.swift in Sources */,
+				22B593041FB1593200BA10B2 /* FrictionCalculator.swift in Sources */,
+				22B593021FB1593100BA10B2 /* ContentView.swift in Sources */,
+				22B593001FB1593000BA10B2 /* FlowCalculatorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		22A592ED1FB1592D00BA10B2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				22A592EE1FB1592D00BA10B2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		22A592F21FB1592D00BA10B2 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				22A592F31FB1592D00BA10B2 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		22A592F61FB1592D00BA10B2 /* Debug */ = {
@@ -212,7 +189,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -263,7 +240,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -277,6 +254,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M4Z3WK27P5;
+				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Flow Calculator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.samschmitt.Flow-Calculator";
@@ -292,6 +270,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M4Z3WK27P5;
+				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Flow Calculator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.samschmitt.Flow-Calculator";
